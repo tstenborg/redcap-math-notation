@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+title: "Mathematical Notation in REDCap Online Data Collection Instruments"
+message: "If you use this repository, please cite it using these metadata."
+type: software
+authors:
+  - given-names: Travis
+    family-names: Stenborg
+    orcid: "https://orcid.org/0000-0002-2693-9628"
+url: "https://github.com/tstenborg/redcap-math-notation"
+abstract: >-
+  "This repository holds digital assets associated with the article \
+  'Mathematical notation in REDCap online data collection instruments'. That \
+  article discusses rendering LaTeX mathematical notation as images in REDCap \
+  online surveys. An example survey is provided, using questions drawn from a \
+  study of students' perceptions of physico-mathematical concepts."
+keywords:
+  - latex
+  - mathematics
+  - redcap
+preferred-citation:
+  authors:
+    - given-names: Travis
+      family-names: Stenborg
+  doi: "10.47397/tb/47-1/tb145stenborg-redcap"
+  end: 90 # Last page number.
+  issue: 1
+  journal: TUGboat
+  start: 89 # First page number.
+  title: "Mathematical notation in REDCap online data collection instruments"
+  type: article
+  volume: 47
+  year: 2026

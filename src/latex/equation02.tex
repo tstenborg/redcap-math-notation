@@ -1,0 +1,12 @@
+% This LaTeX renders a target equation as a PDF file cropped to the content.
+% Designed for typesetting with LuaLaTeX.
+
+\documentclass{standalone}
+\input{typeface-config}
+
+% Target equation (speed).
+% Here, v is the tangential velocity of the mass in a conical pendulum.
+% Also, a ChkTeX linter exclusion is added so "lg" isn't parsed as a logarithm.
+\begin{document}
+$v^2 = lg \tan{\theta} \sin{\theta}$ % chktex 35
+\end{document}

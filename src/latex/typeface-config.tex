@@ -1,0 +1,14 @@
+\usepackage{unicode-math}   % Allows OpenType mathematics fonts.
+
+% Set up equation rendering in Arial (or Arial-like) fonts.
+% Arial was used for compatibility with associated Web text.
+% N.B. Arial lacks robust mathematics support.
+%      GFSNeohellenicMath is a close Arial match, with mathematics support.
+
+\defaultfontfeatures{Ligatures=TeX, Scale=MatchLowercase}
+\setmainfont{Arial}
+\setmathfont{GFSNeohellenicMath.otf}
+% Use Arial for upright characters like 0-9.
+\setmathfont{Arial}[range=up]
+% Use Arial for italic mathematics characters like the variables x, y.
+\setmathfont{Arial Italic}[range=it]
